@@ -1,0 +1,15 @@
+-> npm install nodemon --save (use for production dependency)
+-> npm install nodemon --save-dev (use for developer dependency)
+-> npm install nodemon -g (install in globle level not for project only)
+-> npm install (will update all install packages)
+-> all install packages can be check in package.json file in project with install version
+example:
+    "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+-> all packages source code are saved in node_modules folder
+-> for use nodmon package need to update in app.js start command with 
+                "start": "nodemon app.js"
+    if we have install nodemon for project only then we have to execuate from app.js file
+    if we try from terminal then it will found it from globlelly
+->
